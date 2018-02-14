@@ -15,4 +15,4 @@ class Dog
 
 
 end
-Dog.class_variable_get(:@@all)
+Dog.clear_all(:@@all)
